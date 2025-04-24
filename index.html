@@ -12,51 +12,49 @@
         <div class="errmsg">
             <div class="erricon">
                 <i class="fa-regular fa-circle-xmark"></i>
-                <p id="Nfound">City Not Found!</p>    
+                <p id="Nfound">Uh-oh... couldn't find that place 😬</p>    
             </div>
-            <p id="TryAgain">Try again with the correct city name!</p>
+            <p id="TryAgain">Mind giving that another shot? Spelling helps 😅</p>
         </div>
         <form id="weather-form">
-            <input type="text" id="citysearch" placeholder="Enter city name" d>
+            <input type="text" id="citysearch" placeholder="Type your city here... like, properly 😄">
             <button type="submit"><i class="fas fa-search"></i></button>
         </form>
         <div id="weather-result"></div>
-    <div class="result">
-        <figure class="name" id="city">
-            <figurecaption id="Cname">INDIA</figurecaption>
-            <img src="https://flagsapi.com/IN/shiny/64.png" alt="Indian
-             Flag" srcset="">
-        </figure>
-        <figure class="temprature" id="temp">
-            <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="" srcset="">
-            <figurecaption class="degree">
-                <span>31</span>
-                <sup>o</sup>
-            </figurecaption>
-        </figure>
-        <p class="description">
-            Overcast clouds
-        </p>
-        <ul>
-            <li>
-                <span>Clouds</span>
-                <i class="fa-solid fa-cloud" ></i>
-                <span id="clouds">98</span>
-            </li>
-            <li>
-                <span>Humidity</span>
-                <i class="fa-solid fa-droplet"></i>
-                <span id="Humidity">55</span>
-            </li>
-            <li>
-                <span>Pressure</span>
-                <i class="fa-solid fa-gauge"></i>
-                <span id="Pressure">1001</span>
-            </li>
-        </ul>
-    </div>
-    </div>
-
+        <div class="result">
+            <figure class="name" id="city">
+                <figurecaption id="Cname">DELHI – Basically a human oven today 🔥</figurecaption>
+                <img src="https://flagsapi.com/IN/shiny/64.png" alt="Indian Flag">
+            </figure>
+            <figure class="temprature" id="temp">
+                <img draggable="false" src="slaphard-removebg-preview.png" alt="Sun giving slaps">
+                <figurecaption class="degree">
+                    <span>Feels like: Too hot to function ☀️</span>
+                    <sup>🥵</sup>
+                </figurecaption>
+            </figure>
+            <p class="description">
+                Go ahead, type a city up there. Let’s see what the sky's cookin’ 👀
+            </p>
+            <ul>
+                <li>
+                    <span>Clouds</span>
+                    <i class="fa-solid fa-cloud" ></i>
+                    <span id="clouds">98</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <i class="fa-solid fa-droplet"></i>
+                    <span id="Humidity">55</span>
+                </li>
+                <li>
+                    <span>Pressure</span>
+                    <i class="fa-solid fa-gauge"></i>
+                    <span id="Pressure">1001</span>
+                </li>
+            </ul>
+        </div>
+        </div>
     <script src="app.js"></script>
 </body>
 </html>
